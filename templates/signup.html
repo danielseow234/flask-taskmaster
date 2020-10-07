@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+<form method="POST" action="/">
+    <h1>Task master</h1>
+    <h2>Sign up</h1>
+    <input type="text" id="username" placeholder="Username" name="username" required><br>
+    <input type="password" id="password" placeholder="Password" name="password" required><br>
+    <input type="password" id="cpassword" placeholder="Confirm Password" name="cpassword" required><br>
+    <button>Sign up</button><br>
+    <a href="/">Already have an account? Sign in!</a>
+</form>
+{% endblock %}
